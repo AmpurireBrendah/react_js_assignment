@@ -1,6 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Greet from './Greet';
+import Goal from './Goal';
+import Garage from './Garage';
+import Packing from './Parking';
+import Form from './Form';
 
 function App() {
   const myName = "Ampurire"
@@ -21,6 +24,10 @@ function App() {
   <Greet name={myName} age={24} school={school} address={address} />
   <Greet name={secondName} age={22} school={school1} address={address1} />
   <Greet name={thirdName} age={29} school={school2} address={address2} />
+  <Garage/>;
+<Goal/>;
+<Packing/>;
+<Form/>
     
   </div>
   );

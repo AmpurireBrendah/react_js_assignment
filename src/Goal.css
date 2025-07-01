@@ -1,0 +1,29 @@
+.goal-card {
+  background-color: #f0f8ff;
+  border: 2px solid #007acc;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.goal-card h1 {
+  font-size: 24px;
+  color: #005a9e;
+  margin-bottom: 20px;
+}
+
+.goal-card h2 {
+  font-size: 20px;
+  color: #003f6b;
+  margin-bottom: 16px;
+}
+
+.goal-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
